@@ -1,7 +1,7 @@
 .container{
   display: grid;
-  grid-template-columns: 1fr 150px 150px 150px 150px 1fr;
-  grid-template-rows: 150px 150px 150px 150px 150px 100px;
+  grid-template-columns: 1fr 200px 200px 1fr;
+  grid-template-rows: 200px 200px 200px 200px 100px;
   grid-gap: 15px;
 }
 
@@ -20,16 +20,9 @@ nav{
 
 .container{
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px 1fr;
-  grid-template-rows: 150px 150px 150px 150px 150px 150px 100px;
+  grid-template-columns: 200px 200px 200px 200px 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px 100px;
   grid-gap: 15px;
-}
-
-.flip-card{
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
 }
 
 footer{
@@ -52,28 +45,8 @@ nav{
 
   .container{
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px 150px 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px;
-}
-
-#mycarousel{
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-#menupt1{
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-#menupt2{
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 4;
+    grid-template-columns: 200px 200px 200px 200px 200px 1fr;
+    grid-template-rows: 250px 250px 250px 250px 100px;
 }
 
 nav{
