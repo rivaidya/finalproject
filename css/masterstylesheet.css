@@ -3,6 +3,10 @@ body{
   font-size: 18px;
 }
 
+ul li:focus{
+text-decoration: underline;
+}
+
 a {
   text-decoration: none;
 }
