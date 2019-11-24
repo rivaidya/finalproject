@@ -12,12 +12,32 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151353911-3"></script>
     <script>
+
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'UA-151353911-3');
+      function initMap() {
+        // The location of Uluru
+        var uluru = {lat: -25.344, lng: 131.036};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
     </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnrZG3zzTVhFdx5PtOb1wejmGU1tikgF0&callback=initMap">
+    </script>
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
   </head>
   <body>
 <!-- Top Navigation Menu -->
@@ -31,6 +51,7 @@
         <a href="ct.html">Catering Menu</a>
         <a href="nf.html">Norfolk Menu</a>
         <p>Location</p>
+
       </div>
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -51,6 +72,10 @@
           </ul>
         </div>
       </nav>
+      <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1iD-IwU8Q2Q-ACS80BGN9Xl81816IYg79" width=600% height= 200% frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
       <footer>
         <p>Stockpot Soups</p>
       </footer>
