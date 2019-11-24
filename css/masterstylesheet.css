@@ -3,7 +3,7 @@ body{
   font-size: 18px;
 }
 
-lu li:focus{
+ul li:focus{
 text-decoration: underline;
 }
 
