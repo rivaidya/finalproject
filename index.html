@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/masterstylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>StarterPaget</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151353911-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-151353911-3');
+    </script>
+  </head>
+  <body>
+<!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">Home</a>
+  <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <p>Home</p>
+        <a href="about.html">About</a>
+        <a href="vbm.html">Virginia Beach Menu</a>
+        <a href="nf.html">Norfolk Menu</a>
+        <a href="ct.html">Catering Menu</a>
+        <a href="lc.html">Location</a>
+      </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div id = "upperblock">
+    <div class="container-n" role = "main">
+      <nav>
+        <div class="nav">
+          <ul>
+            <li><p>Home<p></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="vbm.html">Virginia Beach Menu</a></li>
+            <li><a href="nf.html">Norfolk Menu</a></li>
+            <li><a href="ct.html">Catering Menu</a></li>
+            <li><a href="lc.html">Location</a></li>
+          </ul>
+        </div>
+      </nav>
+      <footer>
+        <p>Stockpot Soups</p>
+      </footer>
+      </div>
+
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+          } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
