@@ -3,25 +3,58 @@ body{
   font-size: 18px;
 }
 
-ul li:focus{
-text-decoration: underline;
+/* .image1{
+  -ms-transform: translateX(20%);
+  transform: translateX(20%);
+} */
+
+.pageheading{
+  text-align: center;
 }
 
-a {
-  text-decoration: none;
+h1{
+  font-size: 100px;
 }
 
 ul{
   width: 100%;
 }
 
+.flip-card{
+  height: 100%;
+}
+
 .active{
   background-color: none;
 }
 
-#myCarousel{
-height: 100%;
-width: 100%;
+.flipcardparagraph{
+  display: block;
+  height: 33.333%;
+  text-align: center;
+}
+
+
+
+h3{
+  font-size: 20px;
+}
+
+.parablock{
+  position: relative;
+  top: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.lowertextblock{
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
+
+.flipcardparagrap p{
+  font-size: 14px;
 }
 
 .ff{
@@ -30,10 +63,6 @@ width: 100%;
 
 .carousel-inner{
   height: 100%;
-}
-
-ul li #menulist{
-  display: block;
 }
 
 a{
@@ -63,11 +92,11 @@ ul{
   transform-style: preserve-3d;
 }
 
-.actiontarget:focus .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.actiontarget:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -162,6 +191,10 @@ body{
   padding: 0px;
 }
 
+.flip-card{
+  height: 66.666%;
+}
+
 footer{
   color: white
 }
@@ -244,12 +277,12 @@ footer{
   height: 100%
 }
 
-nav .nav{display: none;}
+nav {display: none;}
 
 
 @media only screen and (min-width: 700px) {
 
-nav .nav{
+nav {
   display: block;
 }
 
