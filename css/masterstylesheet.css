@@ -166,7 +166,9 @@ ul{
     top:0;
     height:100%;
     width:100%;
+    border:0;
 }
+
 .nf-address-box{
   grid-column-start: 3;
   grid-column-end: 4;
