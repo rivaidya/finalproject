@@ -15,34 +15,7 @@ footer{
 nav{
   width: 100%;
 }
-.map-responsive{
-    position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
-    height: 0;
-    overflow: hidden;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-.nf-address-box{
-  border-style: double;
-  grid-column-start: 1;
-  grid-column-end: -1;
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
 
-.nf-address-box{
-  border-style: double;
-  grid-column-start: 1;
-  grid-column-end: -1;
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
 
 @media only screen and (min-width: 700px) {
 
