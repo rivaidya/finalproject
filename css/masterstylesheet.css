@@ -27,14 +27,6 @@ ul{
 .active{
   background-color: none;
 }
-.logo{
-  width: 100%;
-}
-.small_logo{
-  width: 120px;
-  padding-top: 10px;
-  padding-bottom: 0px;
-}
 
 .flipcardparagraph{
   display: block;
@@ -224,6 +216,14 @@ ul{
 .activebar {
   background-color: orange;
   color: white;
+}
+.logo{
+  width: 100%;
+}
+.small_logo{
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 body{
