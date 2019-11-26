@@ -262,7 +262,9 @@ li a:link{
 }
 
 li p{
-  color: white
+  color: white;
+  background-color: #9E6700;
+  padding: 5px;
 }
 
 li a:visited{
@@ -315,7 +317,7 @@ footer{
 }
 
 footer p{
-  position: absolute;
+  position: relative;
   display: block;
   -ms-transform: translateY(350%);
   transform: translateY(350%);
@@ -325,7 +327,8 @@ footer p{
   padding: 20px;
   font-size: 30px;
   width: 30px;
-  text-align: center;
+  height: 25px;
+  /*text-align: center;*/
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
