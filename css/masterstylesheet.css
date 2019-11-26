@@ -27,6 +27,13 @@ ul{
 .active{
   background-color: none;
 }
+.logo{
+  width: 100%;
+}
+.small_logo{
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 
 .flipcardparagraph{
   display: block;
@@ -209,7 +216,10 @@ ul{
 }
 
 /* Style the active link (or home/logo) */
-
+.activebar li{
+  display: inline-block;
+  background-color: orange;
+}
 .activebar {
   background-color: orange;
   color: white;
