@@ -168,7 +168,13 @@ ul{
     width:100%;
     border:0;
 }
-
+.social-media-container{
+  align-items: center;
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
 .nf-address-box{
   grid-column-start: 3;
   grid-column-end: 4;
@@ -208,44 +214,7 @@ ul{
   background-color: orange;
   color: white;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 body{
  background: white url(../images/hexagons.png);
  background-attachment: fixed;
@@ -254,9 +223,7 @@ body{
  background-size: cover;
 }
 
-footer{
-  text-align: center;
-}
+
 
 body{
   font-family: 'Exo 2', sans-serif;
@@ -273,9 +240,7 @@ body{
   height: 66.666%;
 }
 
-footer{
-  color: white
-}
+
 
 nav{
   color: black;
@@ -319,14 +284,6 @@ li{
   margin: 0 auto;
 }
 
-footer p{
-  position: relative;
-  display: block;
-  -ms-transform: translateY(350%);
-  transform: translateY(350%);
-  font-size: 12px;
-}
-
 .image{
   overflow: hidden;
 }
@@ -352,9 +309,52 @@ margin: 0vw;
 
 footer{
   background-color: black;
-  height: 100%
+  height: 100%;
+  text-align: center;
+  color: white;
 }
 
+footer p{
+  position: absolute;
+  display: block;
+  -ms-transform: translateY(350%);
+  transform: translateY(350%);
+  font-size: 12px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 nav {display: none;}
 
 
