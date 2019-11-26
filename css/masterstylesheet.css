@@ -155,21 +155,17 @@ ul{
   top: 0;
 }
 .map-responsive{
-    position: relative;
-    padding-bottom: 70%; 
-    height: 0;
     overflow: hidden;
     grid-column-start: 2;
     grid-column-end: -1;
     grid-row-start: 1;
-    grid-row-end: -2;
+    grid-row-end: 3;
 }
 .map-responsive iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
-    position:absolute;
 }
 .nf-address-box{
   grid-column-start: 3;
@@ -192,7 +188,7 @@ ul{
 
 .nf-address-box , .vb-address-box {
   grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row-end: 4;
   background-color: #E9A427;
   text-align: center;
   padding-top: 40px;
