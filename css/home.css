@@ -1,14 +1,14 @@
 .container-n{
   display: grid;
   grid-template-columns: 1fr 200px 200px 1fr;
-  grid-template-rows: 200px 200px 200px 200px 100px;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 100px;
 }
 
 footer{
   grid-column-start: 1;
   grid-column-end: -1;
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-row-start: 9;
+  grid-row-end: 10;
 }
 
 nav{
