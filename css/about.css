@@ -24,6 +24,13 @@ nav{
   grid-template-rows: 200px 200px 200px 200px 200px 200px 100px;
   grid-gap: 15px;
 }
+  
+  #instafeed{
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
 
 .flip-card{
   grid-column-start: 3;
@@ -61,6 +68,13 @@ nav{
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: -1;
+}
+  
+  #instafeed{
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 footer{
