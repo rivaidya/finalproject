@@ -15,6 +15,17 @@ nav{
   width: 100%;
 }
 
+#instafeedwrappermobile{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+#instafeedwrapper{
+  display: none;
+}
+
 @media only screen and (min-width: 700px) {
 
 .container-n{
@@ -31,7 +42,12 @@ footer{
   grid-row-end: 8;
 }
   
-#instafeed{
+#instafeedwrappermobile{
+  display: none;
+}
+
+#instafeedwrapper{
+  display: block;
   grid-column-start: 2;
   grid-column-end: -1;
   grid-row-start: 2;
@@ -62,7 +78,7 @@ nav{
   grid-row-end: -1;
 }
   
-#instafeed{
+#instafeedwrapper{
   grid-column-start: 2;
   grid-column-end: -1;
   grid-row-start: 2;
