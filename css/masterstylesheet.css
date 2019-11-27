@@ -3,6 +3,9 @@ body{
   font-size: 18px;
 }
 
+.eapps-instagram-feed.eapps-instagram-feed{
+font-family: 'Exo 2', sans-serif;
+}
 
 #instafeedwrapper{
   position: relative;
