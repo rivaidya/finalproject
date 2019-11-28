@@ -358,10 +358,10 @@ footer{
 }
 
 footer p{
-  position: relative;
+  /*position: relative;
   display: block;
   -ms-transform: translateY(350%);
-  transform: translateY(350%);
+  transform: translateY(350%);*/
   font-size: 12px;
 }
 .fa {
