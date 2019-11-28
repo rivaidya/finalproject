@@ -40,6 +40,9 @@ font-family: 'Exo 2', sans-serif;
 .embed-responsive-item{
   position: relative;
   overflow: hidden;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
 }
   
 
