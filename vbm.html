@@ -20,23 +20,23 @@
     </script>
   </head>
   <body>
-<!-- Top Navigation Menu -->
+
     <div class="topnav">
       <div class="activebar">
           <li><img class= "small_logo"src="images/logo.png" alt="Stockpot Logo"></li>
-          <li><a href="#home" class="active">Virginia Beach Menu</a></li>
+          <li><a href="#home">Virginia Beach Menu</a></li>
       </div>
-      <a href="#home" class="active">Virginia Beach Menu</a>
-  <!-- Navigation links (hidden by default) -->
+
+    <!-- Navigation links (hidden by default) -->
       <div id="myLinks">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="vb.html">Virginia Beach Menu</a>
-        <a href="nf.html">Norfolk Menu</a>
+        <a href="about.html" id = "logo"></a>
         <p>Virginia Beach Menu</p>
+        <a href="nf.html">Norfolk Menu</a>
+        <a href="ct.html">Catering Menu</a>
         <a href="lc.html">Location</a>
       </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars" aria-label = "top nav menu"></i>
       </a>
@@ -49,7 +49,7 @@
             <ul>
               <a href="index.html"><img class="logo" src="images/logo.png" alt="Stockpot Logo"></a>
               <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
+              <li><a href="about.html">Contact</a></li>
               <li><p>Virginia Beach Menu<p></li>
               <li><a href="nf.html">Norfolk Menu</a></li>
               <li><a href="ct.html">Catering Menu</a></li>
@@ -58,6 +58,492 @@
           </div>
         </nav>
       </head>
+
+      <div class = "pageheading menutitle" id = "vbm-title">
+        <h1>Virginia Beach Menu</h1>
+        <h2>Mouseover picture for more information about menu item.</h2>
+      </div>
+
+      <div class = "flipcontainer" id = "flip-1">
+        <div class = "flip-card" tabindex="0">
+          <div class="item active clear">
+            <div class="ff">
+              <div class="ff flip-card-inner">
+                <div class="ff image flip-card-front">
+                  <img src="images/img1.png" class = "image1" alt="Corned Beef Hash" aria-label="Corned Beef Hash">
+                </div>
+                <div class="ff flip-card-back">
+                  <div class = "ff flipcardparagraph">
+                    <div class = "parablock">
+                      <p>corned beef, sweet potatoes, sautéed peppers & onions, 2 poached eggs, buttered toast </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class = "lowertextblock">
+          <h3>Corned Beef Hash ($10.50)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-2">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img2.jpg" class = "image1" alt="Beef Bibimbap" aria-label="Bibimbap">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>beef, sweet potato, bok choy, miso ginger sauce, brown basmati & forbidden black rice, sunny side up egg, house kimchi, pickled onionsr</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Beef Bibimbap ($14.50)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-3">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img3.jfif" class = "image1" alt="Egg Scramble" aria-label="Eggs">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>3 eggs, bacon, grilled onions, peppers, spinach,cheddar cheese <br>-make it a burrito with salsa fresca $1.50 </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Egg Scramble <br>($9.00)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-4">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img4b.jpg" class = "image1" alt="Sugar Waffles" aria-label="Sugar Waflles">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>Butter and Maple Syrup</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Belgian Pearl Sugar Waffles <br>($4.50)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-5">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img5.jpeg" class = "image1" alt="Pork Carnitas" aria-label="Carnitas">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>crispy pork, herb aioli, sunny side up egg, cilantro, salsa fresca </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Pork Carnitas <br>($9.00) </h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-6">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img6.jpg" class = "image1" alt="Avo" aria-label="Avo">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>smashed avocado, evoo, pickled peppers, tomato, lime, sea salt <br> - add a poached egg $1.60</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Avo <br>($7.25)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-7">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img7b.jpg" class = "image1" alt="Braised Muchroom and Ricotta" aria-label="Braised-Mushroom">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>chicken breast, celery, green onions, raisins, dijon mustard, greek yogurt & aioli dressing, sunflower seeds, mixed greens </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Braised Mushroom and Ricotta <br>($8.25)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-8">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img8.jpg" class = "image1" alt="Chicken Salad" aria-label="Chicken-Salad">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>chicken breast, celery, green onions, raisins, dijon mustard, greek yogurt & aioli dressing, sunflower seeds, mixed greens </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Chicken Salad<br>($8.25)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-9">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img9b.jpg" class = "image1" alt="Turkey and Rice Soup" aria-label="Turkey-Soup">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>w/ a mini rosemary biscuit or buttered toast<br>8oz cup $4.25<br>12oz bowl $5.85<br>32oz quart $13.50 </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Turkey and Rice Soup<br>(See card for sizes)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-10">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img10.jpg" class = "image1" alt="Pumkin Tortilla Soup" aria-label="Pumpkin-Tortilla-Soup">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>8oz cup $4.25<br>12oz bowl $5.85 <br>32oz quart $13.50r</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Pumpkin Tortilla Soup<br>(See card for sizes.)<br></h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-11">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img11.jpg" class = "image1" alt="Pan-Seared Organic Salmon Soup" aria-label="Salmon-Soup">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>Pan seared organic salmon*, zucchini noodles, asian vegetables, spicy miso broth, sesame seeds </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Pan-Seared Organic Salmon Soup<br>($12.50)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-12">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img12.JPG" class = "image1" alt="Cypress Combo" aria-label="Cypress-Combo">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>Tcup or bowl soup, Virginia ham & honey biscuit, side salad</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Cypress Combo<br>($11.50/13.50)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-13">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img13b.jpg" class = "image1" alt="Turkey Waldorf Salad" aria-label="Turkey Waldorf">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>turkey breast, mixed greens, apples, roasted pecans, craisins, celery, poppyseed dressing </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Turkey Waldorf Salad<br>($11.00)</h3>
+      </div>
+      </div>
+
+    <div class = "flipcontainer" id = "flip-14">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img14.JPG" class = "image1" alt="Cherijo Bowl" aria-label="Cherijo-Bowl">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>black beans, crispy pork, puffed wild rice, avocado, fresh mango, pico de gallo, cotija cheese, mixed greens, fresh lime</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Cherijo Bowl<br>($11.50)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-15">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img15.jpg" class = "image1" alt="Kale 'BLT' Salad" aria-label="BLT-Salad">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>kale, arugula, bacon, roasted tomato, sunflower seeds, tahini yogurt dressing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Kale 'BLT' Salad<br>($10.50)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-16">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img16.jpg" class = "image1" alt="Zuchinni Noodle Greek Salad" aria-label="Greek Salad">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>Spiraled zucchini noodles, red onion, tomato, cucumber, feta cheese, garbanzo beans, olives, pepperoncini, citrus vinaigrette </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Zuchinni Noodle Greek Salad<br>($10.00)</h3>
+      </div>
+    </div>
+      
+    <div class = "flipcontainer" id = "flip-17">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img17.jpg" class = "image1" alt="Coffee" aria-label="Coffee">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>Nothin like wakin' up, with cofee in your cup.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Coffee</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-18">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img18.JPG" class = "image1" alt="Hot Tea" aria-label="Hot-Tea">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>Made fresh daily.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Hot Tea</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-19">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img19b.jfif" class = "image1" alt="Natalie's Bottle Orange Juice" aria-label="Orange Juice">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>Made with real oranges</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>Natalies’s Bottled Orange Juice<br>($4.00)</h3>
+      </div>
+    </div>
+
+    <div class = "flipcontainer" id = "flip-20">
+      <div class = "flip-card" tabindex="0">
+        <div class="item active clear">
+          <div class="ff">
+            <div class="ff flip-card-inner">
+              <div class="ff image flip-card-front">
+                <img src="images/img20.jpg" class = "image1" alt="San Pelegrino" aria-label="San Pelegrino">
+              </div>
+              <div class="ff flip-card-back">
+                <div class = "ff flipcardparagraph">
+                  <div class = "parablock">
+                    <p>Some darn fancy water.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "lowertextblock">
+        <h3>San Pelegrino</h3>
+      </div>
+    </div>
+
       <footer>
         <p>Stockpot Soups</p>
       </footer>
