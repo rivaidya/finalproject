@@ -3,6 +3,14 @@ body{
   font-size: 18px;
 }
 
+.menutitle h2{
+  font-size: 16px;
+}
+
+.menutitle h2{
+  margin-top: 10px;
+}
+
 .eapps-instagram-feed.eapps-instagram-feed{
 font-family: 'Exo 2', sans-serif;
 }
