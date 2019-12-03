@@ -15,6 +15,12 @@ nav{
   width: 100%;
 }
 
+#banner{
+  display: block;
+  text-align: center;
+}
+  
+
 #instafeedwrappermobile{
   grid-column-start: 2;
   grid-column-end: 4;
