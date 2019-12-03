@@ -376,6 +376,7 @@ footer p{
   -ms-transform: translateY(350%);
   transform: translateY(350%);*/
   font-size: 32px;
+  font-weight: bold;
 }
 .fa {
   padding: 20px;
