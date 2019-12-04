@@ -24,4 +24,4 @@ General Location: Location page
 
 Form:
 Contact page
-Code: inhttps://codepen.io/matmarsiglio/pen/HLIor
+Code inspiration: inhttps://codepen.io/matmarsiglio/pen/HLIor 
