@@ -14,15 +14,12 @@ Dropdwon menu in mobile query: https://www.w3schools.com/howto/howto_css_paralla
 General location: All pages, mobile media query ( =< 720px)
 
 General grid and media query structure: https://www.w3schools.com/howto/howto_css_parallax.asp
-
 General Location: All pages
 
 Instafeed: https://apps.elfsight.com/panel/applications/instashow/
-
 General location: Home page
 
 Google Map: https://www.google.com/maps/d/u/1/edit?hl=en&hl=en&mid=1iD-IwU8Q2Q-ACS80BGN9Xl81816IYg79&ll=36.850937708141885%2C-76.24540121572267&z=12
-
 General Location: Location page
 
 Form:
