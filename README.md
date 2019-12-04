@@ -8,7 +8,7 @@ CODE CREDIT:
 
 Flipcards: https://www.w3schools.com/howto/howto_css_parallax.asp
 General location: Virginia Beach Menu, Norfolk Menu, and Catering Menu
-Google map for venues: https://www.google.com/maps/d/u/1/edit?hl=en&hl=en&mid=1iD-IwU8Q2Q-ACS80BGN9Xl81816IYg79&ll=36.850937708141885%2C-76.24540121572267&z=12
+Google map for venues:
 
 Dropdwon menu in mobile query: https://www.w3schools.com/howto/howto_css_parallax.asp
 All pages, mobile media query ( =< 720px)
@@ -19,7 +19,7 @@ All pages
 Instafeed: https://apps.elfsight.com/panel/applications/instashow/
 Home page
 
-Google Map:
+Google Map: https://www.google.com/maps/d/u/1/edit?hl=en&hl=en&mid=1iD-IwU8Q2Q-ACS80BGN9Xl81816IYg79&ll=36.850937708141885%2C-76.24540121572267&z=12
 Location page
 
 Form:
