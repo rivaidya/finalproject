@@ -11,6 +11,7 @@ General location: Virginia Beach Menu, Norfolk Menu, and Catering Menu
 
 
 Dropdwon menu in mobile query: https://www.w3schools.com/howto/howto_css_parallax.asp
+
 All pages, mobile media query ( =< 720px)
 
 General grid and media query structure: https://www.w3schools.com/howto/howto_css_parallax.asp
