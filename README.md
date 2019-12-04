@@ -7,7 +7,6 @@ NOTE: html page for flip card carousel page is named index just so that it rende
 CODE CREDIT:
 
 Flipcards: https://www.w3schools.com/howto/howto_css_parallax.asp
-
 General location: Virginia Beach Menu, Norfolk Menu, and Catering Menu
 
 
